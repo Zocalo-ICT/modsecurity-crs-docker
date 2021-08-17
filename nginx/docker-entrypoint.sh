@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 export DNS_SERVER=${DNS_SERVER:-$(cat /etc/resolv.conf |grep -i '^nameserver'|head -n1|cut -d ' ' -f2)}
 

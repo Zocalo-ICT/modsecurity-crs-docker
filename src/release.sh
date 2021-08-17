@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Release will use master branch as stable
 
